@@ -1,0 +1,16 @@
+.grid-container{
+    height: 400px;
+    display: grid;
+    background-color: aqua;
+    /* Definimos tamaños y espacios de fila y columnas en el grid */
+    grid-template-columns: auto 40px auto;
+    grid-template-rows: auto 100px auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.grid-container div{
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+  .grid-container {
+      display: grid;
+      background-color: brown;
+      grid-template-columns: auto auto auto;
+      /* Forma larga para hacer gaps */
+      /* column-gap: 20px;
+      row-gap: 40px; */
+      /* forma corta para hacer gaps fila columna  primer parametro son las filas y el segundo son las columnas*/
+      gap: 10px 20px;
+
+
+  }
+
+  .grid-container div {
+      background-color: blueviolet;
+      /* padding modifica el espacio del contenedor */
+      padding: 20px;
+      border: 1px solid black;
+      text-align: center;
+
+
+  }
